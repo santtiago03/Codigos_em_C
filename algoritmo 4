@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main() {
+	int x,y;
+	printf("Insira um numero :");	
+	scanf ("%i",&x);
+		printf("Insira outro numero :");
+		scanf("%i",&y);
+		if( x > y){
+			printf("O numero %i e maior/n",x);
+				 }
+				else{
+				printf("O numero %i e maior/n",y);
+		} 
+return 0;
+}		
