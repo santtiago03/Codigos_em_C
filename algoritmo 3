@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() {
+	int x;
+
+	printf("Insira um numero :");	
+	scanf ("%i",&x);
+		if(x % 2 == 0){
+			printf("Seu numero e par");
+				 }
+				else{
+				printf("Seu numero e impar");
+		} 
+return 0;
+}				
