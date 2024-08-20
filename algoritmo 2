@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main() {
+	float x,y,soma;
+
+	printf("Insira um numero :");	
+	scanf ("%f",&x);
+		  printf ("Insira outro numero");
+		  scanf ("%f",&y);
+				    soma = x+y;
+				    printf ("A soma dos dois numeros e: %f",soma);
+return 0;
+}				
