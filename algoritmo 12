@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+
+int main() {
+    float  x,y;
+
+
+    printf("Digite um numero: ");
+    scanf("%f", &x);
+    printf("Digite outro numero:");
+    scanf("%f",&y);
+    
+    float soma = x+y;
+   if (soma < 0) {
+   printf("Informe numeros reais");
+}
+   else {
+   	printf("A soma dos nuemros e : %f",soma);
+   }
+
+    return 0;
+}
+
+
+
