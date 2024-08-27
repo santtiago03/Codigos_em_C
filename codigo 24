@@ -1,0 +1,23 @@
+#include <stdio.h>  
+#include <math.h>   
+
+int main() {
+    
+	long long binarionum, decimalNum = 0, i = 0, restante;
+
+    printf("Digite um numero binario: ");
+    scanf("%lld", &binarionum);  
+  
+ 
+    while (binarionum != 0) {  
+        restante = binarionum % 10; 
+        decimalNum += restante * pow(2, i); 
+        binarionum /= 10;  
+        i++; 
+    }
+
+  
+    printf("O decimal equivalente e: %lld\n", decimalNum);
+
+    return 0; 
+}
