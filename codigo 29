@@ -1,0 +1,22 @@
+#include <stdio.h> 
+#include <stdlib.h> 
+#include <ctype.h> // Para a função tolower
+
+int main() { 
+
+printf("Digite uma string: ");
+fgets(str, sizeof(str), stdin); 
+
+
+for (i = 0; str[i] != '\0'; i++) {
+    char ch = tolower(str[i]); 
+    // Verificar se o caractere é uma vogal
+    if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
+        vogais++;
+    }
+}
+
+
+printf("Número de vogais na string: %d\n", vogais);
+
+return 0;
